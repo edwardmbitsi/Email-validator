@@ -24,3 +24,18 @@ h3{
 #form{
   position: relative;
 }
+
+#form #email {
+  width: 300px;
+  background: #292929;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-style: 18px;
+}
+
+.inputBox{
+  position: relative;
+}
