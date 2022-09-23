@@ -41,12 +41,13 @@ h3{
 }
 
 #text{
-      display: block;
-      color: #000;
-      font-weight: 500;
-      font-style: italic;
-      padding: 5px;
-  }
+  display: block;
+  color: #000;
+  font-weight: 500;
+  font-style: italic;
+  padding: 5px;
+}
+
   #form.invalid .inputBox::before{
       content: "";
       position: absolute;
