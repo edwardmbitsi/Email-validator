@@ -39,3 +39,31 @@ h3{
 .inputBox{
   position: relative;
 }
+
+#text{
+      display: block;
+      color: #000;
+      font-weight: 500;
+      font-style: italic;
+      padding: 5px;
+  }
+  #form.invalid .inputBox::before{
+      content: "";
+      position: absolute;
+      right: 12px;
+      top: 6px;
+      width: 24px;
+      height: 24px;
+      background-color: #ff0000;
+      z-index: 1000;
+  }
+  #form.valid .inputBox::before{
+      content: "";
+      position: absolute;
+      right: 12px;
+      top: 6px;
+      width: 24px;
+      height: 24px;
+      background-color: #00ff00;
+      z-index: 1000;
+  }
